@@ -1,0 +1,23 @@
+{
+  "name": "psatir-language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "psatir" : "./interpreter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonLGH/psatir-language.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoonLGH/psatir-language/issues"
+  },
+  "homepage": "https://github.com/MoonLGH/psatir-language#readme"
+}

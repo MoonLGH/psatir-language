@@ -2,12 +2,12 @@
   "name": "psatir-language",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "interpreter.js",
   "bin": {
     "psatir" : "./interpreter.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node . example/test.psatir"
   },
   "repository": {
     "type": "git",

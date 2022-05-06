@@ -12,20 +12,20 @@ function execute(line,lNumber,lFile,text) {
     let [nLine,...lakukn] = nextline.split(" ")
     console.log(nextline)
 
-    if(["iyh","ga"].includes(nLine)){
-        if(nextline.split(" ")[0] === "iyh"){
+    if(["rill","fek"].includes(nLine)){
+        if(nextline.split(" ")[0] === "rill"){
             tx += `
             if(${cond}){
                 ${parse(lakukn.join(" "),lFile)}
             }`
-        } else if(nextline.split(" ")[0] === "ga"){
+        } else if(nextline.split(" ")[0] === "fek"){
             tx += `
             if(!${cond}){
                 ${parse(lakukn.join(" "),lFile)}
             }`
         }
     } else {
-        throw "use 'iyh' or 'ga'"
+        throw "use 'rill' or 'fek' on next line while using afakah"
     }
     return tx
 }

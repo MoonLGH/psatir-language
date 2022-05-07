@@ -9,7 +9,8 @@
   "scripts": {
     "test": "node . example/test.psatir",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "dev": "nodemon -e test  --exec \"npm run lint:fix && npm run test\""
   },
   "repository": {
     "type": "git",

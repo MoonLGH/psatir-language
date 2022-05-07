@@ -11,7 +11,6 @@ function execute(line, lNumber, lFile, text) {
   let tx = '';
   const nextline = text.split('\n')[lNumber+1];
   const [nLine, ...lakukn] = nextline.split(' ');
-  console.log(nextline);
 
   if (['rill', 'fek'].includes(nLine)) {
     if (nextline.split(' ')[0] === 'rill') {

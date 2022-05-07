@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-const fs = require("fs");
-const parse = require("./utils");
+const fs = require('fs');
+const parse = require('./utils');
 
 let fileLocate = null;
 const parseArgs = () => {
@@ -8,7 +8,7 @@ const parseArgs = () => {
 
   if (args.length < 3) {
     console.log(
-      "Require file args, ex: 'node interpreter.js example/example1.psatir' or 'psatir example/example1.psatir'"
+        'Require file args, ex: \'node interpreter.js example/example1.psatir\' or \'psatir example/example1.psatir\'',
     );
     return false;
   }
@@ -26,7 +26,7 @@ if (!parseArgs()) {
   process.exit(1);
 }
 
-const input = fs.readFileSync(fileLocate, "utf-8");
+const input = fs.readFileSync(fileLocate, 'utf-8');
 
-const result = parse(input,fileLocate)
-eval(result)
+const result = parse(input, fileLocate);
+eval(result);

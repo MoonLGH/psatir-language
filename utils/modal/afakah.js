@@ -6,7 +6,7 @@ function execute(line, lNumber, lFile, text) {
     throw new Error(`afakh is not on right syntax on {${lFile}:${lNumber}}`);
   }
 
-  const cond = `(${args[0]} === '${args[1]}')`;
+  const cond = `(${args[0]} === ${args[1]})`;
 
   let tx = '';
   const nextline = text.split('\n')[lNumber+1];

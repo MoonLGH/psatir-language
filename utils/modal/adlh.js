@@ -4,6 +4,6 @@ function execute(line, lNumber, lFile) {
     throw new Error(`adlh is not on right syntax on {${lFile}:${lNumber}}`);
   }
 
-  return `let ${args[1]} = "${args[2]}"`;
+  return `let ${args[1]} = ${args[2]}`;
 }
 module.exports = execute;

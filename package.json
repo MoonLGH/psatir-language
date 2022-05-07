@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node . example/test.psatir",
     "lint": "eslint .",
-    "lint:fix" : "eslint . --fix"
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   "homepage": "https://github.com/MoonLGH/psatir-language#readme",
   "devDependencies": {
     "eslint": "^8.15.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
   }
 }

@@ -7,4 +7,18 @@ function execute(line, lNumber, lFile) {
 
   return `console.log(${args.join(' ')})`;
 }
-module.exports = execute;
+
+const attr = {
+  'name': 'bilangh',
+  'logics': 'console.log',
+  'paramsLength': '>1',
+  'params': [
+    {
+      'name': '...args',
+      'uses': 'stuff for console.log',
+    },
+  ],
+  'description': 'log with javascript console.log',
+  'usage': 'bilangh "foo!"',
+};
+module.exports = {execute, attr};

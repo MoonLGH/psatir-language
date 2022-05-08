@@ -9,7 +9,7 @@ function parseAllLogics() {
     arr.push(
         {
           name: log,
-          execute: require(`./modal/${log}`),
+          execute: (require(`./modal/${log}`)).execute,
         },
     );
   }

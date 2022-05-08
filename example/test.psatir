@@ -4,3 +4,14 @@ afakah gwe "farrel"
 rill bilangh 'rill ngab'
 afakah gwe "farrel"
 fek bilangh 'palsu'
+
+adlh int1 1
+adlh int3 9
+afakah int1 int3 >
+rill bilangh int1 + int3
+
+afakah int1 int3 <
+fek bilangh int1 - int3
+
+afakah int1 int3 <
+rill bilangh int1 - int3

@@ -29,4 +29,5 @@ if (!parseArgs()) {
 const input = fs.readFileSync(fileLocate, 'utf-8');
 
 const result = parse(input, fileLocate);
+console.log(result);
 eval(result);

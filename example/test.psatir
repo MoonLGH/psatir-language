@@ -15,3 +15,12 @@ fek bilangh int1 - int3
 
 afakah int1 int3 <
 rill bilangh int1 - int3
+
+anjimejs ```js
+console.log("tesss")
+```
+
+anjimejs ```ts
+let array:string[] = ["1","2"]
+```
+bilangh array

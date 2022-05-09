@@ -28,5 +28,8 @@
     "eslint-config-google": "^0.14.0",
     "jest": "^28.1.0",
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "typescript": "^4.6.4"
   }
 }
